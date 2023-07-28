@@ -40,7 +40,7 @@ grafico.show()
 grafico_path = "C:/aulacareca/Vendas/grafico.png"
 grafico.write_image(grafico_path)
 
-'''
+
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
 mail.To = 'davipinho2022@gmail.com'
@@ -62,4 +62,4 @@ mail.HTMLBody =
 #mail.Attachments.Add(attachment)
 
 mail.Send()
-'''
+
