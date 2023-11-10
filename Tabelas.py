@@ -49,8 +49,4 @@ Faturamentos
 Lojas
 
 '''
-# To attach a file to the email (optional):
-#attachment  = "Path to the attachment"
-#mail.Attachments.Add(attachment)
-
 mail.Send()
